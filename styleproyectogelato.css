@@ -1,0 +1,183 @@
+body {
+	background-image: url(imagenes/Gelato%20sur.jpg) ;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: center;
+	background-attachment: fixed;
+	}
+/*Título Principal*/
+#titulo-ppal{
+	font-size: 80px;
+	font-family: "Great Vibes", "Lobster", cursive;
+	color:black;
+	text-align: center;
+	font-weight: bold;
+}
+.ppal img{
+	display:inline-block;
+		}
+.ppal{
+	margin: 20px;
+	padding:10px;
+	align-content: center;
+}
+.infopp{
+	font-family:"Verdana", "Times New Roman", sans-serif;
+	font-size: 15px;
+	text-align: justify; 
+	color:black;
+	margin:25px;
+	font-weight: bold;
+}
+/*Encabezados, títulos y subtítulos*/
+h1 {
+	color:black;
+	font-family: 'Great Vibes','Lobster', cursive;
+	font-size: 60px;
+	text-align: center;
+	}
+
+h2 {
+	color: darkblue;
+	font-family: "Lobster","Verdana", cursive;
+	font-size: 40px;
+	text-align: center;
+}
+/*Listas de contenido*/
+ul{
+	font-size:15px;
+	font-family: "Verdana", "Times New Roman", sans-serif;
+	}
+ol{
+	font-size: 15px;
+	font-family: "Verdana", "Times New Roman", sans-serif;
+}
+/*Personalización de letras por clase y contenedores*/
+.helados{
+	color:crimson;
+	font-family: "Lobster", "Verdana", cursive;
+	font-size: 30px;
+	text-align: center;
+	}
+
+.sobre-nosotros {
+	color:rebeccapurple;
+	font-family: "Lobster","Verdana", cursive;
+	font-size: 30px;
+	text-shadow: 5px;
+	text-align: center;
+	}
+
+.contenedorsn{
+	text-align: justify;
+	margin: 20px;
+	padding:20px;	
+	font-weight: bold;
+	} 
+.cont-helados{
+	align-items: center;	
+	display:inline-block;
+	margin: 20px;
+	padding:20px;
+	left: 180px;
+}
+.cont-dulces{
+	align-items: center;	
+	display:inline-block;
+	margin: 20px;
+	padding:20px;
+	left: 180px;
+}
+.cont-comida{
+	align-content:center;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	left: 180px;
+}
+
+/*Ajustes de Imágenes*/
+img {
+	width: 200px;
+	margin:15px;
+	padding: 5px;
+	border-color: saddlebrown;
+	border-radius: 10%;
+	border-width: 5px;
+	border-style: double;
+}
+#otros{
+	width: 250px;
+	border-radius: 10%;
+	border-color: saddlebrown;
+	border-width: 5px;
+	border-style: double;
+}
+#otro{
+	width: 250px;
+	border-radius: 10%;
+	border-color: saddlebrown;
+	border-width: 5px;
+	border-style: double;
+		}
+/*Personalización de párrafos*/
+p{
+	font-family: "Verdana", "Times New Roman", sans-serif;
+	font-size-adjust: auto;
+	text-align:justify;
+	font-size:15px;
+	margin: 20px;
+	}
+footer p{
+	text-align: left;
+	background: white;
+}
+.s{
+	color:black;
+	font-weight: bold;
+}
+.p {
+	color:black;
+	font-weight: bold;
+}
+/*Personalización de Formulario*/
+input{
+	font-family: "Verdana", "Times New Roman", sans-serif;
+	
+}
+.form-info{
+	margin: auto;
+	object-position: center;
+	padding: 10px;
+	margin: 20px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	background-color: crimson;
+	color:white;
+	border-radius: 10%;
+}
+.form-info form{
+	font-family: "Verdana", "Times New Roman", sans-serif;
+		}
+.form-info input{
+	align-content: center;
+	background: silver;
+	outline: none;
+	color:black;
+	margin-top: 2px;
+	padding:2px;
+	margin-left: 80px;
+	}
+input:invalid{
+	border 2px color: red;
+	}
+input:invalid:required{
+	background-image: linear-gradient(to right, pink, lightgreen);
+	}
+input:valid{
+	border: 2px solid black;
+}
+footer{
+	align-content: center;
+}
